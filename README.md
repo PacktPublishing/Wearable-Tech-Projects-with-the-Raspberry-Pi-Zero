@@ -10,7 +10,13 @@ All of the code is organized into folders. Each folder starts with a number foll
 
 The code will look like the following:
 ```
-
+while True:
+    btn.wait_for_press()
+    green.blink(0.5,0.5)
+    red.blink(0.25,0.25)
+    btn.wait_for_press()
+    green.off()
+    red.off()
 ```
 
 
