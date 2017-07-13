@@ -1,0 +1,10 @@
+[Unit]
+Description=LED Laptop Bag Service
+After=multi-user.target
+
+[Service]
+Type=idle
+ExecStart=/home/pi/WearableTech/Chapter6/Adafruit_DotStar_Pi/ledBag.py
+
+[Install]
+WantedBy=multi-user.target

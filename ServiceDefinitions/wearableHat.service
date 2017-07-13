@@ -1,0 +1,10 @@
+[Unit]
+Description=Wearable Hat Service
+After=multi-user.target
+
+[Service]
+Type=idle
+ExecStart=/home/pi/WearableTech/Chapter4/wearableHat.py
+
+[Install]
+WantedBy=multi-user.target

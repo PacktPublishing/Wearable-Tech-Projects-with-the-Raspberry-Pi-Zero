@@ -1,0 +1,10 @@
+[Unit]
+Description=GPS Tracker Service
+After=multi-user.target
+
+[Service]
+Type=idle
+ExecStart=/home/pi/WearableTech/Chapter9/gpsTracker.py
+
+[Install]
+WantedBy=multi-user.target

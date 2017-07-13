@@ -1,0 +1,10 @@
+[Unit]
+Description=Scroll Badge Service
+After=multi-user.target
+
+[Service]
+Type=idle
+ExecStart=/home/pi/WearableTech/Chapter2/scrollBadge.py
+
+[Install]
+WantedBy=multi-user.target

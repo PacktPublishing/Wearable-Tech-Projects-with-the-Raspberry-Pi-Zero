@@ -1,0 +1,10 @@
+[Unit]
+Description=Pedometer Service
+After=multi-user.target
+
+[Service]
+Type=idle
+ExecStart=/home/pi/WearableTech/Chapter7/pedCount.py
+
+[Install]
+WantedBy=multi-user.target

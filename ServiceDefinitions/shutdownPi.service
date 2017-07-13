@@ -1,0 +1,10 @@
+[Unit]
+Description=Shutdown Pi Service
+After=multi-user.target
+
+[Service]
+Type=idle
+ExecStart=/home/pi/WearableTech/shutdownPi.py
+
+[Install]
+WantedBy=multi-user.target

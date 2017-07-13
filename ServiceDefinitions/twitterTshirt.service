@@ -1,0 +1,10 @@
+[Unit]
+Description=Twitter TShirt Service
+After=multi-user.target
+
+[Service]
+Type=idle
+ExecStart=/home/pi/WearableTech/Chapter5/ledTshirt.py
+
+[Install]
+WantedBy=multi-user.target

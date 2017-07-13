@@ -1,0 +1,10 @@
+[Unit]
+Description=tShirt LED Service
+After=multi-user.target
+
+[Service]
+Type=idle
+ExecStart=/home/pi/WearableTech/Chapter3/tShirtLED.py
+
+[Install]
+WantedBy=multi-user.target

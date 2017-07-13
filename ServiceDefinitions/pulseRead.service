@@ -1,0 +1,10 @@
+[Unit]
+Description=Heart Rate Service
+After=multi-user.target
+
+[Service]
+Type=idle
+ExecStart=/home/pi/WearableTech/Chapter8/pulseRead.py
+
+[Install]
+WantedBy=multi-user.target
