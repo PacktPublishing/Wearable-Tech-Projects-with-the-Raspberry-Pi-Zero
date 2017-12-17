@@ -31,5 +31,4 @@ while True:
 * [Raspberry Pi 3 Projects for Java Programmers](https://www.packtpub.com/hardware-and-creative/raspberry-pi-3-projects-java-programmers?utm_source=github&utm_medium=repository&utm_campaign=9781786462121)
 
 * [Building Smart Homes with Raspberry Pi Zero](https://www.packtpub.com/hardware-and-creative/building-smart-homes-raspberry-pi-zero?utm_source=github&utm_medium=repository&utm_campaign=9781786466952)
-### Suggestions and Feedback
-[Click here](https://docs.google.com/forms/d/e/1FAIpQLSe5qwunkGf6PUvzPirPDtuy1Du5Rlzew23UBp2S-P3wB-GcwQ/viewform) if you have any feedback or suggestions.
+
